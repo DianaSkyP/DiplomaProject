@@ -31,11 +31,14 @@ ENV/
 *.swp
 *.swo
 
-# Test reports
+# Test reports and artifacts
 reports/
 allure-results/
+allure-report/
 pytest-report.html
 *.log
+test-results/
+.pytest_cache/
 
 # OS
 .DS_Store
